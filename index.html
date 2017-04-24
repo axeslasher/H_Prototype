@@ -1327,23 +1327,76 @@
             <h1 class="title">All Games</h1>
         </section>
         <!-- Sub Nav (original) -->
-        <div class="container">
+        <div class="container subnav-container">
             <ul class="filter-nav list-unstyled list-inline">
-                <li class="active"><a href="https://www.horoscope.com/us/games/index-games.aspx">All Games</a></li>
-                <li><a href="https://www.horoscope.com/us/games/index-games-love.aspx">Love Games</a></li>
-                <li class="non-mobile "><a href="https://www.horoscope.com/us/games/index-games-compatibility.aspx">Compatibility Games</a></li>
-                <li class="non-mobile "><a href="https://www.horoscope.com/us/games/index-games-instant-advice.aspx">Instant Advice Games</a></li>
-                <li class="non-mobile non-tablet "><a href="https://www.horoscope.com/us/games/index-games-unique.aspx">Unique Games</a></li>
-                <li class="non-mobile non-tablet "><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx">Fortune Teller Games</a></li>
-                <li class="non-mobile non-tablet "><a href="https://www.horoscope.com/us/games/index-games-calculator.aspx">Calculators</a></li>
+                <li data-subnav="all-games" class="active"><a href="https://www.horoscope.com/us/games/index-games.aspx">All Games</a></li>
+                <li data-subnav="love-games" class="non-mobile"><a href="https://www.horoscope.com/us/games/index-games-love.aspx">Love Games</a></li>
+                <li data-subnav="compatibility-games" class="non-mobile"><a href="https://www.horoscope.com/us/games/index-games-compatibility.aspx">Compatibility Games</a></li>
+                <li data-subnav="advice-games" class="non-mobile "><a href="https://www.horoscope.com/us/games/index-games-instant-advice.aspx">Instant Advice Games</a></li>
+                <li data-subnav="unique-games" class="non-mobile non-tablet "><a href="https://www.horoscope.com/us/games/index-games-unique.aspx">Unique Games</a></li>
+                <li data-subnav="fortune-games" class="non-mobile non-tablet "><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx">Fortune Teller Games</a></li>
+                <li data-subnav="calculator-games" class="non-mobile non-tablet "><a href="https://www.horoscope.com/us/games/index-games-calculator.aspx">Calculators</a></li>
                 <li class="mobile tablet dropdown">
-                    <a class="more-filter">More <i class="icon-caret"></i></a>
+                    <a class="more-filter"><i class="icon-caret"></i></a>
                     <ul class="dropdown-content list-unstyled">
-                        <li class="non-tablet "><a href="https://www.horoscope.com/us/games/index-games-instant-advice.aspx">Instant Advice Games</a></li>
-                        <li class=""><a href="https://www.horoscope.com/us/games/index-games-unique.aspx">Unique Games</a></li>
-                        <li class=""><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx">Fortune Teller Games</a></li>
-                        <li class=""><a href="https://www.horoscope.com/us/games/index-games-calculator.aspx">Calculators</a></li>
+                        <div class="sub-nav">
+                        <div class="row">
+                            <ul class="list-unstyled span-sm-6 span-xs-6 col">
+                                <li><a href="https://www.horoscope.com/us/games/index-games-love.aspx"><h4>Love</h4></a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-magic-love-ball.aspx">Magic love ball</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-love-cookie.aspx">Love cookie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-cupids-oracle.aspx">Cupid's oracle</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/index-games-love.aspx" class="see-more">All love &nbsp; &rarr;</a></li>
+                            </ul>
+                            <ul class="list-unstyled span-sm-6 span-xs-6 col">
+                                <li><a href="https://www.horoscope.com/us/games/index-games-compatibility.aspx"><h4>Compatibility</h4></a></li>
+                                <li><a href="https://www.horoscope.com/us/games/compatibility/game-love-compatibility.aspx">Love compatibility</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/compatibility/game-name-compatibility.aspx">Name compatibility</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/compatibility/game-friendship-compatibility.aspx">Friendship match</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/index-games-compatibility.aspx" class="see-more">All compatibility &nbsp; &rarr;</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <ul class="list-unstyled span-sm-6 span-xs-6 col mtop-1">
+                                <li><a href="https://www.horoscope.com/us/games/index-games-instant-advice.aspx"><h4>Instant advice</h4></a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx">Magic 8-ball</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-love-fairy.aspx">Love fairy</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-crystal-ball.aspx">Crystal ball</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/index-games-instant-advice.aspx" class="see-more">All instant advice &nbsp; &rarr;</a></li>
+                            </ul>
+                            <ul class="list-unstyled span-sm-6 span-xs-6 col mtop-1">
+                                <li><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx"><h4>Unique</h4></a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-fortune-cookie.aspx">Fortune cookie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-luck-meter.aspx">Luck meter</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-ask-genie.aspx">Ask the genie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx" class="see-more">All Unique &nbsp; &rarr;</a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <ul class="list-unstyled span-sm-6 span-xs-6 col mtop-1">
+                                <li><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx"><h4>Fortunes</h4></a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-fortune-cookie.aspx">Fortune cookie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-luck-meter.aspx">Luck meter</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-ask-genie.aspx">Ask the genie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx" class="see-more">All fortune tellers &nbsp; &rarr;</a></li>
+                            </ul>
+                            <ul class="list-unstyled span-sm-6 span-xs-6 col mtop-1">
+                                <li><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx"><h4>Calculators</h4></a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-fortune-cookie.aspx">Fortune cookie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-luck-meter.aspx">Luck meter</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/divination/game-ask-genie.aspx">Ask the genie</a></li>
+                                <li><a href="https://www.horoscope.com/us/games/index-games-fortune-teller.aspx" class="see-more">All Calculators &nbsp; &rarr;</a></li>
+                            </ul>
+                        </div>
+                        <div class="index-link">
+                            <a href="https://www.horoscope.com/us/games/index-games.aspx"><h5>See all games &nbsp; &rarr;</h5></a>
+                        </div>
+                    </div>
                     </ul>
+                    
+                    
+                    
+                    
                 </li>
             </ul>
         </div>
@@ -1357,9 +1410,13 @@
                     <div class="span-8 span-sm-12 span-xs-12 col">
 
                         <div id="myList" class="popular">
+                            
+                            <!-- All Games -->
+                            <section data-anchor="all-games" id="all-games">&nbsp;</section>
+                            <!-- /All Games -->
 
                             <!-- Love Games -->
-                            <div id="love-games" class="row">
+                            <section data-anchor="love-games" id="love-games" class="row">
                                 <h2 class="col span-12">Love Games</h2>
                                 <!-- https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx -->
                                 <a href="#" class="span-xs-6 span-sm-4 span-4 col item">
@@ -1415,11 +1472,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </section>
                             <!-- / Love Games -->
                             
                             <!-- Compatibility Games -->
-                            <div id="compatibility-games" class="row">
+                            <section data-anchor="compatibility-games" id="compatibility-games" class="row">
                                 <h2 class="col span-12">Compatibility Games</h2>
                                 <!-- https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx -->
                                 <a href="#" class="span-xs-6 span-sm-4 span-4 col item">
@@ -1477,11 +1534,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </section>
                             <!-- / Compatibility Games -->
                             
                             <!-- Instant Advice Games -->
-                            <div id="advice-games" class="row">
+                            <section data-anchor="advice-games" id="advice-games" class="row">
                                 <h2 class="col span-12">Instant Advice Games</h2>
                                 <!-- https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx -->
                                 <a href="#" class="span-xs-6 span-sm-4 span-4 col item">
@@ -1538,11 +1595,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </section>
                             <!-- / Instant Advice Games -->
                             
                             <!-- Unique Games -->
-                            <div id="unique-games" class="row">
+                            <section data-anchor="unique-games" id="unique-games" class="row">
                                 <h2 class="col span-12">Unique Games</h2>
                                 <!-- https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx -->
                                 <a href="#" class="span-xs-6 span-sm-4 span-4 col item">
@@ -1598,11 +1655,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </section>
                             <!-- / Unique Games -->
                             
                             <!-- Fortune Teller Games -->
-                            <div id="fortune-games" class="row">
+                            <section data-anchor="fortune-games" id="fortune-games" class="row">
                                 <h2 class="col span-12">Fortune Teller Games</h2>
                                 <!-- https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx -->
                                 <a href="#" class="span-xs-6 span-sm-4 span-4 col item">
@@ -1658,11 +1715,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </section>
                             <!-- / Fortune Teller Games -->
                             
                             <!-- Calculator Games -->
-                            <div id="calculator-games" class="row">
+                            <section data-anchor="calculator-games" id="calculator-games" class="row">
                                 <h2 class="col span-12">Calculators</h2>
                                 <!-- https://www.horoscope.com/us/games/divination/game-magic-8-ball.aspx -->
                                 <a href="#" class="span-xs-6 span-sm-4 span-4 col item">
@@ -1722,7 +1779,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </section>
                             <!-- / Calculator Games -->
 
 
@@ -2092,6 +2149,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://www.horoscope.com/js-US/jquery.lazyload.js?v=1.9.3.4"></script>
     <script src="https://www.horoscope.com/js-US/base-new.js?v=1.3" async></script>
+    <script src="js/jl.js"></script>
 </body>
 
 </html>
