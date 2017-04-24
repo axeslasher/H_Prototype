@@ -226,14 +226,20 @@
 
 /* Subnav */
 
+.filter-nav, .filter-nav li {
+    transition: all 0.2s ease-in-out;
+}
+
 .subnav-scrolled {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(255,255,255,0.9);
-    padding: 1rem;
-    border-bottom: 0px;
+    background: rgba(255,255,255,1);
+    padding: 1rem 0 0.5rem;
+    border-bottom: 0;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
 }
 
 
@@ -249,20 +255,27 @@
 
 /* Small devices (tablets, 768px and up) */
 
-@media (min-width: @screen-sm-min) {
-    ...
+
+@media only screen and (min-width: 768px) {
+     .subnav-scrolled {
+        text-align: center;
+    }
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 
-@media (min-width: @screen-md-min) {
-    ...
+@media only screen and (min-width: 992px) {
+     .subnav-scrolled {
+        text-align: center;
+    }
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
 
-@media (min-width: @screen-lg-min) {
-    ...
+@media only screen and (min-width: 1200px) {
+     .subnav-scrolled {
+        text-align: center;
+    }
 }
