@@ -214,16 +214,36 @@
 }
 
 .more-games {
-    background: #ccc;
-    border-radius: 1rem;
+    background: #cef2ff;
+    background: -moz-linear-gradient(-45deg,#cef2ff 0%,#f9eddb 46%,#fcd1ff 100%);
+    background: -webkit-linear-gradient(-45deg,#cef2ff 0%,#f9eddb 46%,#fcd1ff 100%);
+    background: linear-gradient(135deg,#cef2ff 0%,#f9eddb 46%,#fcd1ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cef2ff',endColorstr='#fcd1ff',GradientType=1);
+    text-align: center;
+}
+
+
+
+/* Subnav */
+
+.subnav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.9);
+    padding: 1rem;
+    border-bottom: 0px;
+}
+
+
+.subnav-container {   
+    height: 41px;
 }
 
 /* Media Queries for Responsive Layout Changes*/
 
-
 /* Extra small devices (phones, less than 768px) */
-
-
 /* No media query since this is the default in Bootstrap */
 
 
