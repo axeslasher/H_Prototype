@@ -222,6 +222,23 @@
     text-align: center;
 }
 
+.more-games p {
+    padding: 1rem;
+    background: rgba(255,255,255,0.9);
+    border-radius: 0.2rem;
+    margin: 1rem 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.more-games h4 {
+    margin-top: 2.5rem;
+}
+
+
+.play-template .popular .item {
+    min-height: 10.5rem;
+}
 
 
 /* Subnav */
@@ -247,6 +264,82 @@
     height: 41px;
 }
 
+.filter-nav .dropdown {
+    position: absolute;
+    right: 0;
+    
+}
+
+a.more-filter {
+    width: 0rem;
+    height: 1rem;
+    border-left: 1px dotted #ccc;
+    padding: 0.5rem 2rem 1rem 1rem !important;
+    
+}
+
+a.more-filter i {
+    font-size: 1rem !important;
+}
+
+.filter-nav .dropdown-content {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    background: #f2f2f2;
+    font-size: 0.8rem;
+    right: 0px;
+    top: 48px;
+    width: 550%;
+}
+
+.filter-nav .sub-nav h4 {
+    text-transform: capitalize;
+    margin: 0 0 0 -0.2rem;
+    color: #6f41a8;
+    font-size: 1.1rem;
+}
+
+.filter-nav .sub-nav a {
+    border: none;
+    text-transform: capitalize;
+    padding: 0.3rem 1rem;
+    color: #111;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.filter-nav .sub-nav .see-more {
+    color: #6f41a8;
+}
+
+.filter-nav .sub-nav li {
+    border: 0px !important;
+}
+
+.filter-nav .dropdown-content li a {
+    border-top: 0px;
+    color: #111;
+}
+
+.filter-nav .sub-nav .index-link {
+    background: #e6e6e6;
+    text-align: center;
+    margin: 1.5rem 0 -0.5rem 0;
+}
+
+
+a.more-filter {
+    transition: all 0.2s ease-in-out;
+}
+
+a.flip i {
+     -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+
 /* Media Queries for Responsive Layout Changes*/
 
 /* Extra small devices (phones, less than 768px) */
@@ -269,6 +362,12 @@
      .subnav-scrolled {
         text-align: center;
     }
+    .play-template .popular .item {
+        min-height: 13.5rem;
+    }
+    .more-games h4 {
+        margin-top: 5.5rem;
+    }
 }
 
 
@@ -277,5 +376,8 @@
 @media only screen and (min-width: 1200px) {
      .subnav-scrolled {
         text-align: center;
+    }
+    .play-template .popular .item {
+        min-height: 15rem;
     }
 }
